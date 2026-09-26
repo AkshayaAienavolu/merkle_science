@@ -2,7 +2,7 @@
 
 ## Deployed URL
 
-> **Live URL:** _(to be filled after deployment — see Deployment section below)_
+> **Live URL:** https://sanctum-sanctorum-mjgc.onrender.com
 >
 > Seeded members to test with:
 > - Wong Li (supreme) — id 1
