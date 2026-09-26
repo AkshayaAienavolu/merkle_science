@@ -1,2 +1,5 @@
--e .
+fastapi
+uvicorn[standard]
+sqlalchemy>=2
+pydantic>=2
 psycopg2-binary

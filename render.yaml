@@ -2,7 +2,7 @@ services:
   - type: web
     name: sanctum-sanctorum
     runtime: python
-    buildCommand: pip install fastapi "uvicorn[standard]" "sqlalchemy>=2" "pydantic>=2" psycopg2-binary
+    buildCommand: pip install -r requirements.txt
     startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
     envVars:
       - key: SANCTUM_DATABASE_URL
